@@ -32,9 +32,11 @@ public class Lab9 {
 			System.out.println(displayMenu(items));
 			System.out.println("What item would you like to order? ");
 			String userChoice = scan.nextLine();
+			System.out.println("Would you like to order anything else (y/n)? ");
 			itemsOrdered.add(userChoice);
 			itemsPrice.add(items.get(userChoice));
 			System.out.println(displayMenu(items));
+			
 			
 			
 			//System.out.println(displayCart(itemsOrdered, itemsPrice));
